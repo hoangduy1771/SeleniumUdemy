@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ae6c1b-e0c3-406e-b8f3-af826783e867" name="Changes" comment="add java lessons">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javacore/ArrayListAndArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javacore/Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriver.java" beforeDir="false" />
+    <list default="true" id="d4ae6c1b-e0c3-406e-b8f3-af826783e867" name="Changes" comment="Create sample class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/Dropdowns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/javacore/ArrayListAndArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javacore/ArrayListAndArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/javacore/Loops.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javacore/Loops.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="27uYPZlqNn8fh96qUYbqpS2aWvt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,13 +40,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ArrayListAndArray">
+  <component name="RunManager" selected="Application.Dropdowns">
     <configuration name="ArrayListAndArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javacore.ArrayListAndArray" />
       <module name="SeleniumUdemy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javacore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dropdowns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="webdriver.Dropdowns" />
+      <module name="SeleniumUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dropdowns" />
         <item itemvalue="Application.ArrayListAndArray" />
         <item itemvalue="Application.Loops" />
       </list>
@@ -87,7 +103,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add java lessons" />
