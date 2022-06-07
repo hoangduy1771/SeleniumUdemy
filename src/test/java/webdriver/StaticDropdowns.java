@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class Dropdowns {
+public class StaticDropdowns {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         Actions action = new Actions(driver);
@@ -19,8 +19,8 @@ public class Dropdowns {
         Select dropdown = new Select(staticDropdown);
         action.pause(3000).perform();
         dropdown.selectByValue("USD");
-        String optionChoosen = dropdown.getFirstSelectedOption().getText();
-        System.out.println(optionChoosen);
+        String optionChosen = dropdown.getFirstSelectedOption().getText();
+        System.out.println(optionChosen);
         action.pause(3000).perform();
         driver.quit();
     }
